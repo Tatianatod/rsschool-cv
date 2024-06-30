@@ -29,7 +29,7 @@ Love people and technology. I believe that professionalism is one of the most im
 * BrowserStack
 
 ## Code examle 
-I once learned Java. Here are examples of my code from the Codewars website. There will be Java Script tasks here soon.
+I once learned Java. Here're examples of my code from the Codewars website. There'll be Java Script tasks here soon.
 
 ```
 import java.lang.StringBuilder;
