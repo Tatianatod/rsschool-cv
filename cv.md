@@ -10,9 +10,9 @@
 
 **Discord** tatiana_tod
 
-[LinkedIn](https://www.linkedin.com/in/tatiana-todoseva-469542110/)
-
 [Codewars](https://www.codewars.com/users/tatiana_tod)
+
+[LinkedIn](https://www.linkedin.com/in/tatiana-todoseva-469542110/)
 
 ## About me
 Tester with 1 year experience in testing. Worked in companies with high growth rates. Introduced automation in a company with manual testing.
