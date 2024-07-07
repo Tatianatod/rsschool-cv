@@ -1,0 +1,137 @@
+body {
+    background: rgb(185, 173, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px  rgb(5, 5, 30);
+
+}
+.container .leftSide {
+    position: relative;
+    background: rgb(5, 5, 58);
+    padding: 40px;
+}
+.profileInfo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(185, 173, 230);
+}
+.profileInfo .myImg {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.profileInfo .myImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileInfo h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 0.3em;
+}
+.profileInfo h3{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: center;
+}
+.contact {
+    padding-top: 40px;
+}
+.title {
+   color: white; 
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-bottom:20px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(185, 173, 230);
+}
+.contact ul li .text{
+    color: white;
+    font-weight: 300;
+}
+.skills{
+    color: white;
+}
+.languages{
+    color:white
+}
+.container .rightSide {
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+}
+.about:last-child {
+    margin-bottom: 0;
+    line-height: 0.9em;
+}
+.title2 {
+    color: rgb(5, 5, 58);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.p {
+    color:  rgb(5, 5, 58);
+    line-height: 0.1;
+}
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+    
+}
+.about .box .yearCompany {
+    min-width: 150px;
+}
+.about .box .yearCompany h4{
+    color: grey;
+    font-weight: 600;
+}
+.about .box .text h3 {
+    text-transform: uppercase;
+    color:  rgb(5, 5, 30);
+    font-size: 16px;
+}
