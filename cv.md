@@ -1,6 +1,6 @@
 # Tatiana Todoseva
 
-### Contacts:
+### My Contact Info:
 **Phone** +491622769240
 **E-mail** tatiana.todoseva@gmail.com
 **Telegram** @tatianaDot
@@ -14,8 +14,7 @@ I'm interested in Java script development and I'd like to develop in this area.
 Love people and technology. I believe that professionalism is one of the most important qualities of a person.
 
 ## Skills
-* HTML
-* CSS
+* HTML&CSS
 * JavaScript 
 * Git/GitHub
 * VSC, IntelliJ IDEA
