@@ -9,17 +9,18 @@
 </head>
 
 <body>
+  
   <div class="container">
     <header>
       <nav>
         <ul>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Code Example</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Languages</a></li>
-          <li><a href="#">Git</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code-example">Code Example</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#git">Git</a></li>
         </ul>
       </nav>
       <h1>Tatiana Todoseva</h1>
@@ -31,7 +32,7 @@
       <p>Tester with 1 year experience in testing. Worked in companies with high growth rates. I’m interested in JavaScript development and I’d like to develop in this area. Love people and technology. I believe that professionalism is one of the most important qualities of a person.</p>
     <img src="img/Foto_Todoseva.jpg" alt="Foto" width="250" height="250">
   </div>
-  <div class="item contact">
+  <div class="item contact" id="contact">
   <h2>Contact</h2>
     <ul>
       <li>Berlin, Germany</li>
@@ -39,7 +40,7 @@
       <li><a href="https://www.linkedin.com/in/tatiana-todoseva-469542110/">LinkedIn</a></li>
     </ul>
   </div>
-  <div class="item skills">
+  <div class="item skills" id="skills">
   <h2>Skills</h2>
     <ul>
       <li>HTML&CSS</li>
@@ -49,11 +50,11 @@
       <li>Agile</li>
     </ul>
   </div>
-  <div class="item code-example">
+  <div class="item code-example" id="code-example">
   <h2>Code Example</h2>
     <pre><code>
-      &lt;script&gt;
-    function myFunction() {
+    &lt;script&gt;
+      function myFunction() {
         let operand1 = Number(document.getElementById("operand1").value);
         let operand2 = Number(document.getElementById("operand2").value);
         let operator = document.getElementById("operator").value;
@@ -62,7 +63,7 @@
         let result;
 
         if (isNaN(operand1) || isNaN(operand2)) {
-            errorMessage.textContent = "Please enter correct data";
+          errorMessage.textContent = "Please enter correct data";
         } else {
             errorMessage.textContent = "";
 
@@ -72,21 +73,21 @@
             result = operand1 - operand2;
             } else if (operator === "*") {
             result = operand1 * operand2;
-            } 
+          } 
         }
 
         document.getElementById("results").textContent = result;
-    }
-&lt;script&gt;
+      }
+    &lt;/script&gt;
     </code></pre>
   </div>
-<div class="item projects">
+<div class="item projects" id="projects">
 <h2>Projects</h2>
   <ul>
     <li><a href="https://tatianatod.github.io/">Project "Personal account of a ReDI student"</a></li>
   </ul>
 </div>
-<div class="item education">
+<div class="item education" id="education">
 <h2>Education</h2>
   <ul>
     <li>Peoples' Friendship University of Russia, Socio-cultural service and tourism, Master. September 2006 – July 2013 </li>
@@ -94,7 +95,7 @@
     <li>ReDI School Berlin - Java Script development online learning. September 2024 – Present</li>
     </ul>
 </div>
-<div class="item languages">
+<div class="item languages" id="languages">
 <h2>Languages</h2>
   <ul>
     <li>English - B2</li>
@@ -104,7 +105,7 @@
 </div>
 </main>
   <footer class="item footer">
-    <p>© 2025 by <a href="https://github.com/Tatianatod">Tatiana Todoseva</a><br>
+    <p>© 2025 by <a href="https://github.com/Tatianatod" id="git">Tatiana Todoseva</a><br>
     <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
       <img src="img/rs-school-logo.svg" alt="Logo" width="50" height="50">
     </a>
